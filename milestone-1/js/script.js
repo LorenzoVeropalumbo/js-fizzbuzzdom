@@ -3,7 +3,8 @@ const numberList = document.querySelector('.list');
 // Write all numbers
 for(let i = 1; i <= 100; i++) {
   
-  // check if the number is a multiple of 3, 5 or both
+  // check if the number is a multiple of 3,5 or both
+  // PER NON CONFODERMI HO PREFERITO PRINTARLI ANCHE A SCHERMO
   if(i % 3 == 0 && i % 5 == 0){
 
     // create inner class message
