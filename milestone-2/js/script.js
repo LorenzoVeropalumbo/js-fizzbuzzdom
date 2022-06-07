@@ -8,20 +8,20 @@ for(let i = 1; i <= 100; i++) {
   if(i % 3 == 0 && i % 5 == 0){
 
     // create inner class message
-    const newLi = `<li class="box">FizzBuzz</li>`;
+    const newLi = `<li class="box fizzbuzz">FizzBuzz</li>`;
     numberList.innerHTML += newLi;
     
 
   } else if (i % 3 == 0) {
 
     // create inner class message
-    const newLi = `<li class="box">Fizz</li>`;
+    const newLi = `<li class="box fizz">Fizz</li>`;
     numberList.innerHTML += newLi;
 
   } else if (i % 5 == 0) {
     
     // create inner class message
-    const newLi = `<li class="box">Buzz</li>`;
+    const newLi = `<li class="box buzz">Buzz</li>`;
     numberList.innerHTML += newLi;
 
   } else {
